@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="무엇이든 물어보세요">
+        <menu>
+            <item
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="생활 게시판" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="학술 게시판" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="취업 게시판" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="강의 게시판" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="공지 게시판" />
+    </group>
+
+</menu>
